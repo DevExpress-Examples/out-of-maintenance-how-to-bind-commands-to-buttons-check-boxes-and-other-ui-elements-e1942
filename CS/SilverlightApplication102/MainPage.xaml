@@ -1,0 +1,21 @@
+﻿<UserControl x:Class="SilverlightApplication102.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:rich="clr-namespace:DevExpress.XtraRichEdit;assembly=DevExpress.AgRichEdit.v9.3" 
+    xmlns:editors="clr-namespace:DevExpress.AgEditors;assembly=DevExpress.AgEditors.v9.3"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    mc:Ignorable="d" d:DesignWidth="640" d:DesignHeight="480">
+  <Grid x:Name="LayoutRoot">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Horizontal" Grid.Row="0">
+            <Button x:Name="btnUndo" Content="Undo"/>
+            <Button x:Name="btnRedo" Content="Redo"/>
+            <Button x:Name="btnInsertPicture" Content="Insert Picture"/>
+            <editors:CheckEdit Content="Bold" IsThreeState="False" x:Name="chkToggleFontBold"/>
+        </StackPanel>
+        <rich:RichEditControl x:Name="richEditControl" Grid.Row="1"/>
+    </Grid>
+</UserControl>
