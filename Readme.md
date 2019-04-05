@@ -6,7 +6,7 @@
 * [CommandButton.cs](./CS/HowToBindCommands/CommandUIBindings/Controls/CommandButton.cs) (VB: [CommandButton.vb](./VB/HowToBindCommands/CommandUIBindings/Controls/CommandButton.vb))
 * [CommandButtonUIState.cs](./CS/HowToBindCommands/CommandUIBindings/UIState/CommandButtonUIState.cs) (VB: [CommandButtonUIState.vb](./VB/HowToBindCommands/CommandUIBindings/UIState/CommandButtonUIState.vb))
 * [CommandCheckBoxUIState.cs](./CS/HowToBindCommands/CommandUIBindings/UIState/CommandCheckBoxUIState.cs) (VB: [CommandCheckBoxUIState.vb](./VB/HowToBindCommands/CommandUIBindings/UIState/CommandCheckBoxUIState.vb))
-* [MainPage.xaml](./CS/HowToBindCommands/MainPage.xaml) (VB: [MainPage.xaml.vb](./VB/HowToBindCommands/MainPage.xaml.vb))
+* [MainPage.xaml](./CS/HowToBindCommands/MainPage.xaml) (VB: [MainPage.xaml](./VB/HowToBindCommands/MainPage.xaml))
 * [MainPage.xaml.cs](./CS/HowToBindCommands/MainPage.xaml.cs) (VB: [MainPage.xaml.vb](./VB/HowToBindCommands/MainPage.xaml.vb))
 <!-- default file list end -->
 # How to bind commands to buttons, check boxes and other UI elements
